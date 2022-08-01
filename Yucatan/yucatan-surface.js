@@ -53,5 +53,93 @@ var point9 = ee.Geometry.Point(x9,y9)
 Map.centerObject(point9, 15)
 Map.addLayer(point9, {color:'red'},'point9')
 
-var polygon = ee.Geometry.Polygon([[x1,y1],[x2,y2],[x3,y3],[x4,y4],[x5,y5],[x6,y6],[x7,y7],[x8,y8],[x9,y9]])
+var x10 = -88.047323
+var y10 = 20.36633
+var point10 = ee.Geometry.Point(x10,y10)
+Map.centerObject(point10, 15)
+Map.addLayer(point10, {color:'red'},'point10')
+
+var x11 = -88.136495
+var y11 = 20.281374
+var point11 = ee.Geometry.Point(x11,y11)
+Map.centerObject(point11, 15)
+Map.addLayer(point11, {color:'red'},'point11')
+
+var x12 = -88.1671596
+var y12 = 20.2854211
+var point12 = ee.Geometry.Point(x12,y12)
+Map.centerObject(point12, 15)
+Map.addLayer(point12, {color:'red'},'point12')
+
+var x13 = -88.2327072
+var y13 = 20.2870006
+var point13 = ee.Geometry.Point(x13,y13)
+Map.centerObject(point13, 15)
+Map.addLayer(point13, {color:'red'},'point13')
+
+var x14 = -88.2326737
+var y14 = 20.2901785
+var point14 = ee.Geometry.Point(x14,y14)
+Map.centerObject(point14, 15)
+Map.addLayer(point14, {color:'red'},'point14')
+
+var x15 = -88.2646351
+var y15 = 20.290342
+var point15 = ee.Geometry.Point(x15,y15)
+Map.centerObject(point15, 15)
+Map.addLayer(point15, {color:'red'},'point15')
+
+var x16 = -88.266822
+var y16 = 20.269127
+var point16 = ee.Geometry.Point(x16,y16)
+Map.centerObject(point16, 15)
+Map.addLayer(point16, {color:'red'},'point16')
+
+var x17 = -88.2729624
+var y17 = 20.2699311
+var point17 = ee.Geometry.Point(x17,y17)
+Map.centerObject(point17, 15)
+Map.addLayer(point17, {color:'red'},'point17')
+
+var x18 = -88.3087884
+var y18 = 20.2535104
+var point18 = ee.Geometry.Point(x18,y18)
+Map.centerObject(point18, 15)
+Map.addLayer(point18, {color:'red'},'point18')
+
+var x19 = -88.3519044
+var y19 = 20.2590227
+var point19 = ee.Geometry.Point(x19,y19)
+Map.centerObject(point19, 15)
+Map.addLayer(point19, {color:'red'},'point19')
+
+var x19 = -88.3519044
+var y19 = 20.2590227
+var point19 = ee.Geometry.Point(x19,y19)
+Map.centerObject(point19, 15)
+Map.addLayer(point19, {color:'red'},'point19')
+
+var x20 = -88.3566003
+var y20 = 20.258314
+var point20 = ee.Geometry.Point(x20,y20)
+Map.centerObject(point20, 15)
+Map.addLayer(point20, {color:'red'},'point20')
+
+var x21 = -88.370812
+var y21 = 20.257792
+var point21 = ee.Geometry.Point(x21,y21)
+Map.centerObject(point21, 15)
+Map.addLayer(point21, {color:'red'},'point21')
+
+var x22 = -88.376397
+var y22 = 20.257022
+var point22 = ee.Geometry.Point(x22,y22)
+Map.centerObject(point22, 15)
+Map.addLayer(point22, {color:'red'},'point22')
+
+
+var polygon = ee.Geometry.Polygon([[x1,y1],[x2,y2],[x3,y3],[x4,y4],[x5,y5],[x6,y6],[x7,y7],[x8,y8],[x9,y9],[x10,y10],
+                                   [x11,y11],[x12,y12],[x13,y13],[x14,y14],[x15,y15],[x16,y16],[x17,y17],[x18,y18],[x19,y19],[x20,y20],
+                                   [x21,y21],[x22,y22]])
+
 Map.addLayer(polygon,{color:'blue'},'polygon')
