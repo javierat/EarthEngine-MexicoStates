@@ -1,9 +1,5 @@
 # EarthEngine-MexicoStates
 
-## Description
+## Table
 
-## Vision
-
-## Mision
-
-## Contact
+| State | EE Map Points | Max Latitude | Min Latitude | Max Longitude | Min longitude | 
